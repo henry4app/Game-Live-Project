@@ -1,0 +1,35 @@
+//
+//  PrefixHeader.pch
+//  网易视频
+//
+//  Created by tarena on 16/7/22.
+//  Copyright © 2016年 tarena. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#define MAS_SHORTHAND_GLOBALS
+#import <Masonry.h>
+#import <MBProgressHUD.h>
+#import <AFNetworking.h>
+#import <YYKit.h>
+#import <MJRefresh.h>
+#import <BlocksKit.h>
+#import <BlocksKit+UIKit.h>
+#import <UITableView+FDTemplateLayoutCell.h>
+#import <pop/POP.h>
+
+#import "NSObject+Parse.h"
+#import "NSString+YX.h"
+#import "UIScrollView+Refresh.h"
+#import "TRFactory.h"
+#import "UIView+HUD.h"
+
+#import "RequestPath.h"
+#import "Constant.h"
+
+
+#endif /* PrefixHeader_pch */
